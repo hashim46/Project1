@@ -19,7 +19,7 @@ npm run dev
 
 How to set the scene-----------------------------------------------------------------------------
 
-Click on Start first for the cube to appear
+Click on Start button first for the cube to appear on the screen
 
 
 Then you will have option to rotate it and change the color by "Spin it" or "Change color" buttons

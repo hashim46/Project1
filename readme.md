@@ -15,17 +15,22 @@ npm run dev
 
 
 
+How to set the scene-----------------------------------------------------------------------------
+
+Click on Start first for the cube to appear
+
+
+Then you will have option to rotate it and change the color by "Spin it" or "Change color" buttons
+
+Then You can finally play the game by "Play" button
+
 How to play the game-----------------------------------------------------------------------------
 
-Click on Start
+As soon as you press the "Play" button, the cube will start to fall
 
-Then a cube will appear
+You have to keep pressing the jump button to keep it on the page
 
-You have an option to either spin it or move it out of the screen
-
-Click "Spin it" then it will start to rotate
-
-Click "Move it out" and it will go out of the screen
+If you let it go down, you will lose
 
 etc
 ```

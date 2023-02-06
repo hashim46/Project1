@@ -67,11 +67,10 @@ const move = () =>
 
 function jump(){
     mesh.position.y += 0.5
-    console.log('hashahs')
     renderer.render(scene, camera)
 }
 
-let color1 = [0xff00ff , 0xffffff, 0x0000ff, 0x00ff00, 0xffff0f]
+let color1 = [0xff00ff , 0xffffff, 0xfffff0, 0x00ff00, 0xffff0f]
 const changeColor = () =>
 {
     material.color.setHex(color1[Math.floor(Math.random() * 5)]) 

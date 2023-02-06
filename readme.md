@@ -1,22 +1,21 @@
 ``` bash 
 
-How to setup and run-----------------------
+How to setup and run--------------------------------------------------------------------------
 
-# First, run the command 
+To create an empty project, first run the following command
 npm create vite@latest
 
-# Install dependencies 
+Then, delete everything from the js file and css file. The idea is to get the boilerplate code by running vite
+
+Then, install dependencies by running the following command 
 npm install three 
 
-# Run the local server at localhost:8080
+Then, to run the code in a local server, run the following command
 npm run dev
 
 
 
-
-
-
-How to play the game--------------------------
+How to play the game-----------------------------------------------------------------------------
 
 Click on Start
 

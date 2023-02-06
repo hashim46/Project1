@@ -51,14 +51,23 @@ const rotate = () =>
 const move = () =>
 {
     renderer.render(scene, camera)
-    mesh.position.x += 0.01 
-    if(mesh.position.x < 5){
+    mesh.position.y -= 0.01 
+    console.log(mesh.position.y)
+    if(mesh.position.y > -3){
         window.requestAnimationFrame(move)
     }
     else{
-       mesh.position.x = 0
+        alert("you lost")
+       mesh.position.y = 0
+
     } 
     
+}
+
+function jump(){
+    mesh.position.y += 0.5
+    console.log('hashahs')
+    renderer.render(scene, camera)
 }
 
 let color1 = ['red' , '', 'orange', 'white', 'cyan']
@@ -88,9 +97,9 @@ btn2.addEventListener('click', move)
   const btn3 = document.querySelector('#c')
   btn3.addEventListener('click', changeColor )
 
-// // Btn to enlarge it
-//   const btn4 = document.querySelector('#a')
-//   btn.addEventListener('click', asv)
+// Btn to enlarge it
+  const btn4 = document.querySelector('#d')
+  btn4.addEventListener('click', jump)
 
 
 

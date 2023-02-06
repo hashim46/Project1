@@ -70,12 +70,12 @@ function jump(){
     renderer.render(scene, camera)
 }
 
-let color1 = ['red' , '', 'orange', 'white', 'cyan']
+let color1 = [0xff00ff , 0xffffff, 0x0000ff, 0x00ff00, 0xffff0f]
 const changeColor = () =>
 {
-    material.color.setHex(0xff00ff)
+    // material.color.setHex(0xff00ff)
     console.log('yay')
-    // material.color = color1[Math.floor(Math.random() * 5)]
+    material.color.setHex(color1[Math.floor(Math.random() * 5)]) 
    renderer.render(scene, camera)
 }
 

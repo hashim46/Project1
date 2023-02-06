@@ -1,31 +1,30 @@
 import * as THREE from 'three'
-import gsap from 'gsap'
 
-// Canvas
+
+// Canvas element of HTML to js
 const canvas = document.querySelector('canvas.webgl')
 
 // Scene
 const scene = new THREE.Scene()
 
-
+// Object
 const geometry = new THREE.BoxGeometry(1, 1, 1)
 const material = new THREE.MeshBasicMaterial({ color: 0xff0000 })
-
 const mesh = new THREE.Mesh(geometry, material)
 scene.add(mesh)
 
-
+// custom variables
 const sizes = {
     width: 800,
     height: 600
 }
 
 
-//Camera
- 
+//Camera 
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 camera.position.z = 3
 scene.add(camera)
+
 
 // Renderer
 const renderer = new THREE.WebGLRenderer({
@@ -34,6 +33,8 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize(sizes.width, sizes.height)
 
 
+
+// Functions
 
 const start = () =>
 {
@@ -73,8 +74,6 @@ function jump(){
 let color1 = [0xff00ff , 0xffffff, 0x0000ff, 0x00ff00, 0xffff0f]
 const changeColor = () =>
 {
-    // material.color.setHex(0xff00ff)
-    console.log('yay')
     material.color.setHex(color1[Math.floor(Math.random() * 5)]) 
    renderer.render(scene, camera)
 }
@@ -94,12 +93,12 @@ const btn2 = document.querySelector('#b')
 btn2.addEventListener('click', move)
 
 // Btn to change color
-  const btn3 = document.querySelector('#c')
-  btn3.addEventListener('click', changeColor )
+const btn3 = document.querySelector('#c')
+btn3.addEventListener('click', changeColor )
 
 // Btn to enlarge it
-  const btn4 = document.querySelector('#d')
-  btn4.addEventListener('click', jump)
+const btn4 = document.querySelector('#d')
+btn4.addEventListener('click', jump)
 
 
 

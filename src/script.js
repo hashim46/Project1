@@ -59,6 +59,7 @@ const move = () =>
     }
     else{
         alert("you lost")
+        alert("Refresh the page now")
        mesh.position.y = 0
 
     } 

@@ -32,5 +32,9 @@ You have to keep pressing the jump button to keep it on the page
 
 If you let it go down, you will lose
 
-etc
+You can also increase the difficulty when the object is at the top by pressing the DifficultyUp button
+
+Thanks for reading!
+
+
 ```

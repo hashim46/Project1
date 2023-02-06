@@ -21,10 +21,11 @@ How to set the scene------------------------------------------------------------
 
 Click on Start button first for the cube to appear on the screen
 
-
 Then you will have option to rotate it and change the color by "Spin it" or "Change color" buttons
 
 Then You can finally play the game by "Play" button
+
+
 
 How to play the game-----------------------------------------------------------------------------
 

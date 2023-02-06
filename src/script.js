@@ -99,6 +99,9 @@ btn3.addEventListener('click', changeColor )
 const btn4 = document.querySelector('#d')
 btn4.addEventListener('click', jump)
 
+const btn5 = document.querySelector('#e')
+btn5.addEventListener('click', move)
+
 
 
 

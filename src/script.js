@@ -61,12 +61,14 @@ const move = () =>
     
 }
 
-// let color1 = ['red' , 'green', 'orange', 'white', 'cyan']
-// const changeColor = () =>
-// {
-//     material.color = color1[Math.floor(Math.random() * 5)]
-//     renderer.render(scene, camera)
-// }
+let color1 = ['red' , '', 'orange', 'white', 'cyan']
+const changeColor = () =>
+{
+    material.color.setHex(0xff00ff)
+    console.log('yay')
+    // material.color = color1[Math.floor(Math.random() * 5)]
+   renderer.render(scene, camera)
+}
 
 
 // Button to start the game
@@ -83,8 +85,8 @@ const btn2 = document.querySelector('#b')
 btn2.addEventListener('click', move)
 
 // Btn to change color
-//   const btn3 = document.querySelector('#a')
-//   btn3.addEventListener('click', changeColor )
+  const btn3 = document.querySelector('#c')
+  btn3.addEventListener('click', changeColor )
 
 // // Btn to enlarge it
 //   const btn4 = document.querySelector('#a')

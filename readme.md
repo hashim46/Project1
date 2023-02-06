@@ -10,6 +10,8 @@ Then, delete everything from the js file and css file. The idea is to get the bo
 Then, install dependencies by running the following command 
 npm install three 
 
+Also add canvas tag in the html 
+
 Then, to run the code in a local server, run the following command
 npm run dev
 
